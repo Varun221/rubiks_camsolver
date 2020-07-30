@@ -166,11 +166,11 @@ while(ret):
             validity = verify_cube_string_is_valid(cube_string)
             if not validity:
                 break
-            print(faces)
+            print("Faces recorded - \n", faces)
             moves = solve_cube(faces)
-            print(f"Solution: \n\n{moves}\n")
+            print(f"Solution: \n{moves}\n")
             print("For notation reference, visit https://ruwix.com/the-rubiks-cube/notation/")
-            time.sleep(5)
+            time.sleep(2)
             break
 
 
