@@ -2,7 +2,7 @@ import cv2.cv2 as cv2
 
 # prints the bgr values when clicked on the image.
 
-img = cv2.imread('cube_detection_screenshot_30.07.2020.png')
+img = cv2.imread('screenshot.png')
 
 def nothing(x):
     pass
