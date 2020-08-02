@@ -22,7 +22,7 @@ cd C:\rubiks_camsolver
 ```bash
 pip install -r requirements.txt
 ```
-4. Download the weights file from [here](https://drive.google.com/file/d/1kFoPiE-IZl9eVfnV3zGOFlW5M3_sB6Rd/view?usp=sharing)) and put it inside " detect_data " folder.
+4. Download the weights file from [here](https://drive.google.com/file/d/1kFoPiE-IZl9eVfnV3zGOFlW5M3_sB6Rd/view?usp=sharing) and put it inside " detect_data " folder.
 5. Run the detector
 ```bash
 python Detector.py
@@ -35,7 +35,7 @@ python Detector.py
 # References
 ### YOLO TRAINING
 1. https://github.com/AntonMu/TrainYourOwnYOLO
-2. https://github.com/zzh8829/yolov3-tf2 \
+2. https://github.com/zzh8829/yolov3-tf2 
 ### RUBIKS CUBE SOLVING
 1. https://github.com/Wiston999/python-rubik
 2. https://github.com/mazenkurdi/rubiks-cube-solver
